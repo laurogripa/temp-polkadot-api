@@ -21,7 +21,7 @@
   "version": "10.11.2-0-x",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/api": "10.11.2-0-x",
+    "@polkadot/api": "npm:temp-polkadot-api@1.0.0",
     "@polkadot/api-augment": "10.11.2-0-x",
     "@polkadot/types": "10.11.2-0-x",
     "@polkadot/types-codec": "10.11.2-0-x",

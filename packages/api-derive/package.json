@@ -11,7 +11,7 @@
   "repository": {
     "directory": "packages/api-derive",
     "type": "git",
-    "url": "https://github.com/laurogripa/temp-polkadot-api"
+    "url": "https://github.com/laurogripa/temp-polkadot-api.git"
   },
   "sideEffects": [
     "./detectPackage.js",
@@ -21,7 +21,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/api": "10.11.2-0-x",
+    "@polkadot/api": "npm:temp-polkadot-api@1.0.0",
     "@polkadot/api-augment": "10.11.2-0-x",
     "@polkadot/api-base": "10.11.2-0-x",
     "@polkadot/rpc-core": "10.11.2-0-x",
@@ -33,7 +33,7 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
-    "@polkadot/api": "10.11.2-0-x",
+    "@polkadot/api": "npm:temp-polkadot-api@1.0.0",
     "@polkadot/api-augment": "10.11.2-0-x",
     "@polkadot/rpc-augment": "10.11.2-0-x",
     "@polkadot/rpc-provider": "10.11.2-0-x",

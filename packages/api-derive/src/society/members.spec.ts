@@ -19,4 +19,3 @@ describe('society derive', (): void => {
     await provider.disconnect();
   });
 });
-});

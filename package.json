@@ -1,17 +1,16 @@
 {
-  "name": "temp-polkadot-api",
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/api/issues",
+  "bugs": "https://github.com/laurogripa/temp-polkadot-api/issues",
   "engines": {
     "node": ">=18.14"
   },
-  "homepage": "https://github.com/polkadot-js/api#readme",
+  "homepage": "https://github.com/laurogripa/temp-polkadot-api#readme",
   "license": "Apache-2.0",
+  "name": "temp-polkadot-api",
   "packageManager": "yarn@3.2.0",
-  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/laurogripa/temp-polkadot-api.git"
   },
   "sideEffects": false,
   "type": "module",
