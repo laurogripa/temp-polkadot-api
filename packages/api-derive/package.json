@@ -7,18 +7,18 @@
   },
   "homepage": "https://github.com/polkadot-js/api/tree/master/packages/api-derive#readme",
   "license": "Apache-2.0",
-  "name": "@polkadot/api-derive",
+  "name": "temp-polkadot-api-derive",
   "repository": {
     "directory": "packages/api-derive",
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/laurogripa/temp-polkadot-api"
   },
   "sideEffects": [
     "./detectPackage.js",
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "10.11.2-0-x",
+  "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
     "@polkadot/api": "10.11.2-0-x",
