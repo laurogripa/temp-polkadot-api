@@ -29,6 +29,6 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
-    "@polkadot/api": "npm:temp-polkadot-api@1.0.0"
+    "@polkadot/api": "10.11.2-0-x"
   }
 }

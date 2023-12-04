@@ -1,29 +1,29 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/laurogripa/temp-polkadot-api/issues",
+  "bugs": "https://github.com/polkadot-js/api/issues",
   "description": "Promise and RxJS wrappers around the Polkadot JS RPC",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/laurogripa/temp-polkadot-api/tree/master/packages/api#readme",
+  "homepage": "https://github.com/polkadot-js/api/tree/master/packages/api#readme",
   "license": "Apache-2.0",
   "name": "@polkadot/api",
   "repository": {
     "directory": "packages/api",
     "type": "git",
-    "url": "https://github.com/laurogripa/temp-polkadot-api.git"
+    "url": "https://github.com/polkadot-js/api.git"
   },
   "sideEffects": [
     "./detectPackage.js",
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "1.0.0",
+  "version": "10.11.2-0-x",
   "main": "index.js",
   "dependencies": {
     "@polkadot/api-augment": "10.11.2-0-x",
     "@polkadot/api-base": "10.11.2-0-x",
-    "@polkadot/api-derive": "npm:temp-polkadot-api-derive@1.0.0",
+    "@polkadot/api-derive": "npm:temp-polkadot-api-derive@1.0.1",
     "@polkadot/keyring": "^12.6.1",
     "@polkadot/rpc-augment": "10.11.2-0-x",
     "@polkadot/rpc-core": "10.11.2-0-x",

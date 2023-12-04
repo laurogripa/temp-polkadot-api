@@ -471,7 +471,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/api-contract@workspace:packages/api-contract"
   dependencies:
-    "@polkadot/api": "npm:temp-polkadot-api@1.0.0"
+    "@polkadot/api": 10.11.2-0-x
     "@polkadot/api-augment": 10.11.2-0-x
     "@polkadot/keyring": ^12.6.1
     "@polkadot/types": 10.11.2-0-x
@@ -484,11 +484,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/api-derive@npm:temp-polkadot-api-derive@1.0.0, temp-polkadot-api-derive@workspace:packages/api-derive":
+"@polkadot/api-derive@npm:temp-polkadot-api-derive@1.0.1, temp-polkadot-api-derive@workspace:packages/api-derive":
   version: 0.0.0-use.local
   resolution: "temp-polkadot-api-derive@workspace:packages/api-derive"
   dependencies:
-    "@polkadot/api": "npm:temp-polkadot-api@1.0.0"
+    "@polkadot/api": 10.11.2-0-x
     "@polkadot/api-augment": 10.11.2-0-x
     "@polkadot/api-base": 10.11.2-0-x
     "@polkadot/rpc-augment": 10.11.2-0-x
@@ -504,23 +504,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/api@npm:temp-polkadot-api@1.0.0, temp-polkadot-api@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "temp-polkadot-api@workspace:."
-  dependencies:
-    "@polkadot/dev": ^0.77.1
-    "@polkadot/typegen": "workspace:packages/typegen"
-    "@types/node": ^20.9.1
-  languageName: unknown
-  linkType: soft
-
-"@polkadot/api@workspace:packages/api":
+"@polkadot/api@10.11.2-0-x, @polkadot/api@workspace:packages/api":
   version: 0.0.0-use.local
   resolution: "@polkadot/api@workspace:packages/api"
   dependencies:
     "@polkadot/api-augment": 10.11.2-0-x
     "@polkadot/api-base": 10.11.2-0-x
-    "@polkadot/api-derive": "npm:temp-polkadot-api-derive@1.0.0"
+    "@polkadot/api-derive": "npm:temp-polkadot-api-derive@1.0.1"
     "@polkadot/keyring": ^12.6.1
     "@polkadot/rpc-augment": 10.11.2-0-x
     "@polkadot/rpc-core": 10.11.2-0-x
@@ -713,7 +703,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/typegen@workspace:packages/typegen"
   dependencies:
-    "@polkadot/api": "npm:temp-polkadot-api@1.0.0"
+    "@polkadot/api": 10.11.2-0-x
     "@polkadot/api-augment": 10.11.2-0-x
     "@polkadot/rpc-augment": 10.11.2-0-x
     "@polkadot/rpc-provider": 10.11.2-0-x
@@ -778,7 +768,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/types-known@workspace:packages/types-known"
   dependencies:
-    "@polkadot/api": "npm:temp-polkadot-api@1.0.0"
+    "@polkadot/api": 10.11.2-0-x
     "@polkadot/networks": ^12.6.1
     "@polkadot/types": 10.11.2-0-x
     "@polkadot/types-codec": 10.11.2-0-x
@@ -7971,6 +7961,16 @@ __metadata:
   checksum: 1d66f7f61b242a2064f9f993192f19de370ee54d7b7fd7159b6ece2352079be01ed0b5d7e3f0bb7a9242f1dcad4898a6265f0990e91bba8169b81c52136cbc9f
   languageName: node
   linkType: hard
+
+"root-workspace-0b6124@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root-workspace-0b6124@workspace:."
+  dependencies:
+    "@polkadot/dev": ^0.77.1
+    "@polkadot/typegen": "workspace:packages/typegen"
+    "@types/node": ^20.9.1
+  languageName: unknown
+  linkType: soft
 
 "rrweb-cssom@npm:^0.6.0":
   version: 0.6.0
