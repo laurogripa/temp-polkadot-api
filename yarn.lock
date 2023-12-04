@@ -7842,16 +7842,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@polkadot/dev": ^0.77.1
-    "@polkadot/typegen": "workspace:packages/typegen"
-    "@types/node": ^20.9.1
-  languageName: unknown
-  linkType: soft
-
 "rrweb-cssom@npm:^0.6.0":
   version: 0.6.0
   resolution: "rrweb-cssom@npm:0.6.0"
@@ -8626,6 +8616,16 @@ fsevents@~2.3.2:
   checksum: e1bdfbf5cc00a5912a855ddf5e0372547ddb56f263839a99c49cad74cfbc20421b1dce1a3231c77348f1a14773924d118512f8c39ff234194896a7590eec7354
   languageName: node
   linkType: hard
+
+"temp-polkadot-api@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "temp-polkadot-api@workspace:."
+  dependencies:
+    "@polkadot/dev": ^0.77.1
+    "@polkadot/typegen": "workspace:packages/typegen"
+    "@types/node": ^20.9.1
+  languageName: unknown
+  linkType: soft
 
 "term-size@npm:^2.1.0":
   version: 2.2.1
